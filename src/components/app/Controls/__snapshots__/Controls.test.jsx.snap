@@ -68,6 +68,18 @@ exports[`Controls component renders Controls 1`] = `
           />
         </label>
       </div>
+      <div
+        class="json-entry-box"
+      >
+        <label>
+          <input
+            name="body"
+            placeholder="Enter raw JSON"
+            type="text"
+            value="body"
+          />
+        </label>
+      </div>
       <button>
         Submit
       </button>

@@ -7,7 +7,7 @@ exports[`HistoryList component renders History List 1`] = `
   >
     <li>
       <div
-        class="history-"
+        class="history-item"
       >
         <p>
           GET

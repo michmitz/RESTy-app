@@ -9,6 +9,7 @@ describe('Controls component', () => {
     const { asFragment } = render(<Controls
       url="testurl"
       method="testmethod"
+      body="body"
       onChange={() => {}}
       onSubmit={() => {}}
     />);

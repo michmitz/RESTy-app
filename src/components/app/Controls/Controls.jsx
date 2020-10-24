@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Controls = ({ url, method, onChange, onSubmit }) => (
+const Controls = ({ url, method, body, onChange, onSubmit }) => (
   <div className="controls-div">
 
       <form onSubmit={onSubmit} className="method-form">
@@ -64,9 +64,19 @@ const Controls = ({ url, method, onChange, onSubmit }) => (
           </label>
         </div>
 
+        <div className="json-entry-box">
+          <label>
+            <input 
+              type="text" 
+              name="body" 
+              placeholder="Enter raw JSON" 
+              value={body} 
+              onChange={onChange}/>
+          </label>
+        </div>
+
         <button>Submit</button>
       </form>
-
 
   </div>
 );
@@ -74,6 +84,7 @@ const Controls = ({ url, method, onChange, onSubmit }) => (
 Controls.propTypes = {
   url: PropTypes.string.isRequired,
   method: PropTypes.string.isRequired,
+  body: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired
 };

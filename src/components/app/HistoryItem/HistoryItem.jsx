@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const HistoryItem = ({ method, url }) => (
-  <div className="history-">
+  <div className="history-item">
     <p>{method}</p>
     <p>{url}</p>
   </div>
