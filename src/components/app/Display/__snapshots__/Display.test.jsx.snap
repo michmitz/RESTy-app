@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display component renders Display 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="display"
+  >
+    string
+  </div>
+</DocumentFragment>
+`;
