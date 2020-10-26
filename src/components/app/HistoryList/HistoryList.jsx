@@ -10,7 +10,7 @@ const HistoryList = ({ history }) => {
   ));
 
   return (
-    <ul data-testid="articles-list">
+    <ul data-testid="history-list">
       {historylist}
     </ul>
   );

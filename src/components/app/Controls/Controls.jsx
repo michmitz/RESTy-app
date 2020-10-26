@@ -12,7 +12,7 @@ const Controls = ({ url, method, body, onChange, onSubmit }) => (
               name="method" 
               value="GET" 
               onChange={onChange} 
-              checked={method === "GET"} />
+              checked={method === 'GET'} />
             GET
           </label>
         </div>
@@ -24,7 +24,7 @@ const Controls = ({ url, method, body, onChange, onSubmit }) => (
               name="method" 
               value="POST" 
               onChange={onChange} 
-              checked={method === "POST"} />
+              checked={method === 'POST'} />
             POST
           </label>
         </div>
@@ -36,7 +36,7 @@ const Controls = ({ url, method, body, onChange, onSubmit }) => (
               name="method" 
               value="PUT" 
               onChange={onChange} 
-              checked={method === "PUT"} />
+              checked={method === 'PUT'} />
             PUT
           </label>
         </div>
@@ -48,7 +48,7 @@ const Controls = ({ url, method, body, onChange, onSubmit }) => (
               name="method" 
               value="DELETE" 
               onChange={onChange} 
-              checked={method === "DELETE"} />
+              checked={method === 'DELETE'} />
             DELETE
           </label>
         </div>
@@ -57,10 +57,10 @@ const Controls = ({ url, method, body, onChange, onSubmit }) => (
           <label>
             <input 
               type="text" 
-              name="api-url" 
+              name="url" 
               placeholder="Enter url" 
               value={url} 
-              onChange={onChange}/>
+              onChange={onChange} />
           </label>
         </div>
 
@@ -71,11 +71,11 @@ const Controls = ({ url, method, body, onChange, onSubmit }) => (
               name="body" 
               placeholder="Enter raw JSON" 
               value={body} 
-              onChange={onChange}/>
+              onChange={onChange} />
           </label>
         </div>
 
-        <button>Submit</button>
+        <button data-testid="button">Submit</button>
       </form>
 
   </div>

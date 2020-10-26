@@ -61,7 +61,7 @@ exports[`Controls component renders Controls 1`] = `
       >
         <label>
           <input
-            name="api-url"
+            name="url"
             placeholder="Enter url"
             type="text"
             value="testurl"
@@ -80,7 +80,9 @@ exports[`Controls component renders Controls 1`] = `
           />
         </label>
       </div>
-      <button>
+      <button
+        data-testid="button"
+      >
         Submit
       </button>
     </form>

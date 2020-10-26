@@ -3,7 +3,7 @@
 exports[`HistoryList component renders History List 1`] = `
 <DocumentFragment>
   <ul
-    data-testid="articles-list"
+    data-testid="history-list"
   >
     <li>
       <div
