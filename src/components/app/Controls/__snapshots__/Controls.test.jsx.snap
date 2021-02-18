@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls component renders Controls 1`] = `
+<DocumentFragment>
+  <div
+    class="controls-div"
+  >
+    <form
+      class="method-form"
+    >
+      <div
+        class="radio"
+      >
+        <label>
+          <input
+            name="method"
+            type="radio"
+            value="GET"
+          />
+          GET
+        </label>
+      </div>
+      <div
+        class="radio"
+      >
+        <label>
+          <input
+            name="method"
+            type="radio"
+            value="POST"
+          />
+          POST
+        </label>
+      </div>
+      <div
+        class="radio"
+      >
+        <label>
+          <input
+            name="method"
+            type="radio"
+            value="PUT"
+          />
+          PUT
+        </label>
+      </div>
+      <div
+        class="radio"
+      >
+        <label>
+          <input
+            name="method"
+            type="radio"
+            value="DELETE"
+          />
+          DELETE
+        </label>
+      </div>
+      <div
+        class="url-box"
+      >
+        <label>
+          <input
+            name="url"
+            placeholder="Enter url"
+            type="text"
+            value="testurl"
+          />
+        </label>
+      </div>
+      <div
+        class="json-entry-box"
+      >
+        <label>
+          <input
+            name="body"
+            placeholder="Enter raw JSON"
+            type="text"
+            value="body"
+          />
+        </label>
+      </div>
+      <button
+        data-testid="button"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;
